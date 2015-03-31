@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Udacity Nanodegree </title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+   <h1>Udacity Nanodegree: Intro to Programming</h1>
+  <div class="lesson"> 
+    <h2>Stage 1: Web Development</h2>
+  <h3>Unti 1: Basics of the Web</h3>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          The Web
+    </div>
+    <div class="Description">
+      <p> The web is programed or created by using HTML files that are linked by <b>HTML</b>.</p> 
+      <p><b>HTML (Hyper Text Markup Language)</b> is a basic for the web. The computer program that operates on the computer  display HTML files that is found on the web, to link to the internet, then it connects to the servers where the host carries the files that make up the websites. 
+      </p>
+    </div>
+    </div>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          HTML
+    </div>
+    <div class="Description">
+      <p>
+        <b>HTML</b> can create the text content, markup, and references to other documents, such as images & videos, link to another web page. 
+      </p>
+
+      <p><b>HTML</b> markup consists of an opening tag and closing tags. The entire piece of code is called an <i>element</i>. Attributes are listed after the elements, but before the corresponding value.
+Images and links are self-closing and are considered void tags, because they don't contain content.  </p>
+    </div>
+    </div>
+    
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          More information about HTML
+    </div>
+    <div class="Description">
+      <p><b>HTML Whitespace</b> can turn everything into one line. Using <i>br tag</i> can seperate the content into multiple lines. Using <i>p tag</i> is another option but it is great for paragraphy. </p>
+      <p><i>Inline and Block elements</i> are used to seperate content. An example of an inline element would be br tag because it just adds a break in the HTML line and wraps remaining text to the next line. An example of a block element would be p tag because it creates an invisible box around the content. Block elements also have a height and width. </p>   
+    </div>
+    </div>
+    
+    <h3>Unit 2: Creating a Structured Document with HTMl</h3>
+    <div class="ConcertBox">
+      <div class="Concert-Title">
+        The Page Structure 
+      </div>
+      <div class="Description">
+        <p> The website is alike building : The HTML is <ins>the structure</ins>, CSS is <ins>the styling</ins>, and Javascript is <ins>the functional objects</ins>. 
+        <p>
+<p>HTML uses elements in a tree like structure, from which other elements branch.
+ </p>
+
+ <p>Here is the image on what HTML Tree with CSS elements does look alike:</p>
+
+ <img src="image/Html_tree.png" alt="HTML Structure" style='width:100%'>
+
+ <p>When in the developer mode in a browser, you can click through the HTML to see how the elements are nested as well as viewing any styling that had to been added to that particular element.</p>
+      
+      </div>
+    </div>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          HTML, CSS, and DOM
+    </div>
+    <div class="Description">
+      <p>HTML is a language with syntax , CSS is a language that uses syntax to change and design how elements look on the page.</p>
+<p>DOM (Document Object Model) which, is the standard convention for representing and interacting with HTML elements.</p>
+    <p>Tags are part of elements that make up an HTML tree(See image above). They know to do this through DOM (Document Object Model) which, is the standard convention for representing and interacting with HTML elements. The tree that we view in developer mode is the DOM tree that the browser built from the HTML document.</p>
+      <ul>
+          <li>Each tag has an element that describes what type it is (e.g. "p" for paragraph)</li>
+          <li>Each tag can have attributes with values</p>
+      </ul>  
+    <p>With CSS you could say all "h1" elements that belong to class “article” should be dark blue. To tie structure and style together the HTML doc can provide the browser wth what style to use and where to get it from.</P>
+
+    </div>
+  </div>
+  
+<div class="ConcertBox">
+    <div class="Concert-Title">
+          The Boxes 
+    </div>
+    <div class="Description">
+      <p>Even if a shape is a circle, in HTML it’s still a box. If you right click and inspect element of a circle, it will show you where the shape is in the HTML document. And it will show a highlighted area of a box on the webpage, so what makes it a circle? ....</P>
+      <p><b>Border Radius</b> Property</p>
+      <p>By thinking of things in boxes it’s easier to rearrange your website. A grid in background makes sure everything is aligned. When plotting your squares and layout of HTML structure, remember: <u><b>START BIG AND GO SMALLER</b></u></p>
+
+    </div>
+  </div>
+
+ 
+    <h3>Unit 3: Adding CSS Style to HTML</h3>
+    <div class="ConcertBox">
+      <div class="Concert-Title">Cascading
+        Understanding Cascading Style Sheet, CSS
+      </div>
+      <div class="Description">
+     <p>The CSS has its own laws.  means that laws are applied to the elements that they directly match. </p>
+     <p>When you identify a class or id tag of the elements that you want to match. Then, decide what you want to do with, and what property values to replace with different ones</p>. 
+      </div>
+    </div>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          Selectors
+    </div>
+    <div class="Description">
+      <p><b>Selectors</b> is where allows you to target specific HTML elements and apply style to them. This is helpful to use CSS to avoid unnecessary repetition that waste time. There are different types of Selectors:</p>
+         <ol>
+           <li> <b>ID Selector</b> <br/>
+           Most powerful type of selector, beat out other types of selectors and styles. Having lower specificity selectors are easier to override.</li>
+           <li>Class Selectors <br/>
+           Most useful and versatile. Well supported in all browsers. Add multiple classes separated by space on HTML elements. Also JavaScript stuff you can do specifically for manipulating classes.</li>
+           <li>Tag Selectors <br/>
+           Most useful when changing properties that are unique to HTML element. Like setting the list style on a "ul" or tab-size on a "pre". Typically more useful to have class define styling that you can use on any HTML element. </li>
+           <li>Attribute Selectors <br/>
+           More useful than classes because they have the same specificity value, but they can be any attribute, not just "class". They also can have a value you can select by.</li> 
+           <li>Positional Selectors <br/>
+           Several positional selectors beyond: nth-child; using simple expressions (like 3n="every third") you can select elements based on their position in the HTML.</li> 
+           <li>Pseudo Selectors <br/>
+           ":empty" is one of many pseudo selectors, which you can recognize by the ":". They typically represent something you couldn't know just by the element and attributes alone. *These are different than pseudo elements, which are recognizable by "::"-they are responsible for adding things to the page by the things they select.</li>
+        </ol>
+    </div>
+    </div>
+  
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          Revaluate the BOX
+    </div>
+    <div class="Description">
+      <p>We know that everything on a webpage is made up of a box.</p> <p>Which consists of 4 parts:
+Content- this is the image or text that appears on the website, comparable to the nucleus of the box, the other layers serve to protect it so other things don't get to close or overlap
+Padding- this clears an area around the content, is affected by background color, and is the space that protects the content directly
+Border- inherits color property of box, incases the padding and content
+Margin- goes around border, outer most layer, provides space between boxes, transparent.</p>
+    </div>
+    </div>
+      <div class="ConcertBox">
+      <div class="Concert-Title">
+          Code, Test, & Refine
+    </div>
+    <div class="Description">
+    <p>Compare your HTML document to the design you were created. How to know what to change?
+Get page structure right, by visually boxifying it
+Look for natural boxes
+Move on to tags(make heading h1)
+Look for repeated styles & semantic elements
+Size of boxes, how big, and how to position
+Write html
+Apply styles(biggest to smallest)
+Fix things!
+      Repeat steps above till it looks like the design mock up! </p> 
+      <p>To verify code, go to the following links: <a href="http://validator.w3.org/">HTML checker</a> and <a href="https://jigsaw.w3.org/css-validator/">CSS checker</a></p>
+    </div>
+    </div> 
+  </div> <!--The End of Box -->
+  
+    
+  <div class="lesson"> 
+    <h2>Stage 2: Telling Computer What to Do  </h2>
+    <h3>Unti 4: Introduction to "SERIOUS" Programming</h3>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          What is Programming?
+    </div>
+    <div class="Description">
+      <p>Dave demonstrated an understanding of computer, computer program, and the web.</p>
+      <p> A web crawler finds web pages for the search engine by starting a seed page and following links on that page to other pages, each of those, link to new web pages which can have new links to other pages. As we follow the links we'll find more and more web pages building a collection of data that we'll use for our search engine. A link is a special type of text in that web page.</p>
+      <p><b>Computer</b> is a machine that can execute a program- with the right program, a computer can do any mechanical computation you can imagine</p>
+      <p><b>Program</b> is a very precise sequence of steps- since the computer is just a machine, the program must give the steps in a way that can be executed mechanically- that is, the program can be followed without any thought. </p>
+      <p><b>Programming</b> is a language designed for producing computer programs- a good programming language makes it easy for humans to read and write programs that can be executed by a computer
+      Python</p>
+      <p><b>A Programming Language</b> is the programs that we write in the Python language will be the input to the Python interpreter, which is a program that runs on the computer- the Python, interpreter reads our programs and executes them by following the rules of the Python language </p>
+
+    </div>
+    </div>
+  
+   
+    
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          Understand of Functions
+    </div>
+    <div class="Description">
+      <p>Procedures(Functions) are a way to package code so it can be reused with different inputs. A procedure takes in inputs, does some processing, and produces outputs.Procedural abstraction is a way to write code once that works on any number of different data values. By turning our code into a procedure, we can use that code over and over again with different inputs to get different behaviors. To make a procedure we need the "name" of the procedure followed by parenthesis with the list of inputs inside of them. To show output, we must use "return" in code block. </p>
+      <p>Here is examples:</p>
+      <ul>
+        <li>def name(parameters): block of code</li>
+        <li>def name(input,input,...): code</li>
+        <li>return a+b, return a[1:], return "U"+a</li>
+      </ul>
+    </div>
+    </div> 
+
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+      Basic Programming Knowledge
+    </div>
+    <div class="Description">
+      <p>There is a screen: editor & output window that we can see the value of something in Python by using print like this: </p>
+      <ol>
+        <li>Print 3 >>> 3 </li>
+      </ol> 
+      <p>The expression after the print can be any value Python expression. Here are some examples:</p>
+      <ol>
+        <li>1 + 1 >>> 2</li>
+        <li>2 - 1 >>> 1</li>
+        <li>2 * 6 >>> 12</li> 
+      </ol> 
+      <p>We can compose expressions to make more complicated expressions like:</p>
+      <ol>
+        <li>52 * 3 + 12 * 9 >>> 1422</li>
+      </ol> 
+      <p>We can also use parentheses to group expressions:</p>
+      <ol>
+        <li>52 * (3+12) * 9 >>> 7020</li>
+      </ol> 
+    </div>
+    </div>
+  </div>
+  
+  <div class="lesson"> 
+    <h2>..</h2>
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          A.
+    </div>
+    <div class="Description">
+      <p> </p>
+    </div>
+    </div>
+  
+    <div class="ConcertBox">
+    <div class="Concert-Title">
+          B.
+    </div>
+    <div class="Description">
+      <p> </p>
+    </div>
+    </div>
+    
+     <div class="ConcertBox">
+    <div class="Concert-Title">
+          C.
+    </div>
+    <div class="Description">
+      <p> </p>
+    </div>
+    </div>
+    
+  </div> <!-- Close DIV -->
+
+  </body>
